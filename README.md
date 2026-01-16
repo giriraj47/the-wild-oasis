@@ -2,7 +2,7 @@
 
 Wild Oasis is a full-featured hotel and resort management dashboard designed to handle internal operations such as bookings, cabins, guests, and business analytics. The application focuses on clean architecture, real-world data handling, and production-ready patterns using modern React tooling.
 
-Live dashboard: https://the-wild-oasis-496c.vercel.app/dashboard
+Live dashboard: [https://the-wild-oasis-496c.vercel.app/dashboard](https://the-wild-oasis-496c.vercel.app/)
 
 ---
 
