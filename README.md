@@ -65,9 +65,10 @@ Supports light and dark themes for improved usability.
 ## Usage
 
 After logging in, users can:
--Monitor hotel performance from the dashboard
--Manage cabins and pricing
--Handle bookings and guest information
--Adjust application-wide settings
+
+- Monitor hotel performance from the dashboard
+- Manage cabins and pricing
+- Handle bookings and guest information
+- Adjust application-wide settings
 
 Pagination, filtering, and sorting are URL-driven, allowing state persistence across refreshes and shareable links.
