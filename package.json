@@ -1,0 +1,33 @@
+{
+  "name": "wildoasis",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "@tanstack/react-query": "^5.90.17",
+    "@tanstack/react-query-devtools": "^5.91.2",
+    "date-fns": "^4.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-error-boundary": "^6.1.0",
+    "react-hook-form": "^7.71.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.11.0",
+    "recharts": "^3.6.0",
+    "styled-components": "^6.3.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "babel-plugin-styled-components": "^2.1.4",
+    "vite": "^6.0.1"
+  }
+}
