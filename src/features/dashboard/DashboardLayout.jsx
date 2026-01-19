@@ -1,7 +1,8 @@
-import styled from "styled-components";
 import { useRecentStays } from "./useRecentStays";
 import { useRecentBookings } from "./useRecentBookings";
 import { useCabins } from "../cabins/useCabins";
+import styled from "styled-components";
+
 import Spinner from "../../ui/Spinner";
 import Stats from "./Stats";
 import SalesChart from "./SalesChart";
@@ -17,8 +18,8 @@ const StyledDashboardLayout = styled.div`
 
 const DashboardLayout = () => {
   const { isLoading: isLoading1, bookings } = useRecentBookings();
-  const { confirmedStays, isLoading: isLoading2, numDays } = useRecentStays();
-  const { cabins, isLoading: isLoading3 } = useCabins();
+  const { isLoading: isLoading2, confirmedStays, numDays } = useRecentStays();
+  const { isLoading: isLoading3, cabins } = useCabins();
 
   if (isLoading1 || isLoading2 || isLoading3) return <Spinner />;
 
